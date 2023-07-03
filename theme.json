@@ -1,0 +1,62 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "layout": {
+            "contentSize": "960px",
+            "wideSize": "1280px"
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "VCR OSD Mono",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/VCR_OSD_Mono/VCR_OSD_MONO.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"VCR OSD Mono\"",
+                    "name": "VCR OSD Mono",
+                    "slug": "vcr-osd-mono"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Quinquefive",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/quinquefive/QuinqueFive.ttf"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Quinquefive\"",
+                    "name": "QuinqueFive",
+                    "slug": "vcr-osd-mono"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Roboto Mono",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/roboto_mono/roboto_mono.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Roboto Mono\"",
+                    "name": "Roboto Mono",
+                    "slug": "roboto-mono"
+                }
+            ]
+        }
+    }
+}
