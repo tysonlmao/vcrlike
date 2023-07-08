@@ -6,24 +6,32 @@
             "contentSize": "960px",
             "wideSize": "1280px"
         },
+        "color": {
+            "palette": [
+                {
+                    "slug": "background",
+                    "color": "#3AA6B9",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#FF9EAA",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#FFD0D0",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#C1ECE4",
+                    "name": "Tertiary"
+                }
+            ]
+        },
         "typography": {
             "fontFamilies": [
-                {
-                    "fontFace": [
-                        {
-                            "fontFamily": "VCR OSD Mono",
-                            "fontStretch": "normal",
-                            "fontStyle": "normal",
-                            "fontWeight": "400",
-                            "src": [
-                                "file:./assets/fonts/VCR_OSD_Mono/VCR_OSD_MONO.woff2"
-                            ]
-                        }
-                    ],
-                    "fontFamily": "\"VCR OSD Mono\"",
-                    "name": "VCR OSD Mono",
-                    "slug": "vcr-osd-mono"
-                },
                 {
                     "fontFace": [
                         {
@@ -38,7 +46,7 @@
                     ],
                     "fontFamily": "\"Quinquefive\"",
                     "name": "QuinqueFive",
-                    "slug": "vcr-osd-mono"
+                    "slug": "quinquefive"
                 },
                 {
                     "fontFace": [
@@ -55,6 +63,22 @@
                     "fontFamily": "\"Roboto Mono\"",
                     "name": "Roboto Mono",
                     "slug": "roboto-mono"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Lora",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/lora/Lora-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Lora\"",
+                    "name": "Lora",
+                    "slug": "lora"
                 }
             ]
         }
