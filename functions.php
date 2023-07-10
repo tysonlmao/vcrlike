@@ -13,8 +13,6 @@ if ( ! function_exists('vcrlike_init')) {
     }
 }
 
-add_action('after_theme_setup', 'init');
-
 function add_styles($version) {
     /** 
      * @since 0.1.0
