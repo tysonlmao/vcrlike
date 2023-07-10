@@ -15,6 +15,10 @@ if ( ! function_exists('init')) {
 add_action('after_theme_setup', 'init');
 
 function add_styles($version) {
+    /** 
+     * @since 0.1.0
+     * enqueue main stylesheet
+     */
     wp_enqueue_style(
         'style',
         get_theme_file_uri('style.css'),
@@ -23,5 +27,12 @@ function add_styles($version) {
     );
 }
 
+if (!function_exists('get_includes')):
+function get_includes(): void {
+    require_once get_theme_file_path('inc/register-styles.php');
+}
+endif;
+
 
 add_action('wp_enqueue_scripts', 'add_styles');
+add_action('after_setup_theme', 'get_includes');
