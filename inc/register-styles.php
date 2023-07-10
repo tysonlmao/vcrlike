@@ -20,6 +20,33 @@
             'label'     => __('Box Shadow', $TextDomain)
         )
     );
+
+    /**
+     * Neon outline
+     * @since 0.1.0
+     */
+    register_block_style(
+        'core/group',
+        array(
+            'default'   => false,
+            'name'      => 'vcrlike__neon-outline',
+            'label'     => __('Neon Outline', $TextDomain)
+        )
+    );
+
+    /**
+     * Neon button
+     * @since 0.1.0
+     */
+    register_block_style(
+        'core/read-more',
+        // style buttons that arent buttons.
+        array(
+            'default'   => false,
+            'name'      => 'vcrlike__neon-button',
+            'label'     => __('Neon Button', $TextDomain)
+        )
+        );
  }
 
  add_action('init', 'vcrlike_register_styles');

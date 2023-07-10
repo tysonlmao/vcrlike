@@ -5,10 +5,11 @@
  */
 $version = wp_get_theme()->get('version');
 
-if ( ! function_exists('init')) {
-    function init(): void {
+if ( ! function_exists('vcrlike_init')) {
+    function vcrlike_init(): void {
         add_theme_support('wp-block-styles');
         add_editor_style('style.css');
+
     }
 }
 
@@ -33,6 +34,6 @@ function get_includes(): void {
 }
 endif;
 
-
+add_action('init', 'vcrlike_init');
 add_action('wp_enqueue_scripts', 'add_styles');
 add_action('after_setup_theme', 'get_includes');
